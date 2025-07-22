@@ -1,0 +1,22 @@
+{
+  "name": "gh-release-notes",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run index.ts",
+    "build": "bun build index.ts --outdir dist --target node",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/semver": "^7.7.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "semver": "^7.7.2"
+  }
+}
