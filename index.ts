@@ -1,3 +1,4 @@
+#!/usr/bin/env bun
 import { Command } from 'commander';
 import { exit } from 'process';
 import * as semver from 'semver';

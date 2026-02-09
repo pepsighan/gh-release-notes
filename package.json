@@ -2,7 +2,9 @@
   "name": "gh-release-notes",
   "module": "index.ts",
   "type": "module",
-  "private": true,
+  "bin": {
+    "gh-release-notes": "index.ts"
+  },
   "scripts": {
     "start": "bun run index.ts",
     "build": "bun build index.ts --outdir dist --target node",
